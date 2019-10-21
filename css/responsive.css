@@ -1,0 +1,182 @@
+@media only screen and (max-width:1400px) {
+/********** BODY **********/
+h1 { font-size: 140px; }
+    
+}
+@media only screen and (max-width:1199px) {
+/********** BODY **********/
+h1 { font-size: 114px; }
+h2 { font-size: 40px; }
+h3 { font-size: 18px; }
+
+/********** HEADER **********/
+.header-main { min-height:700px; }
+.offer { min-height:85px; }
+.offer h2 { font-size:30px; padding-top:20px;}
+
+/********** BANNER **********/
+.banner-content { max-width:66%; margin-right:100px;}
+.banner-content h1 { line-height:normal; }
+.banner-content p { font-size:22px;}
+.highlight-text { padding:14px 30px 16px; font-size:22px;}
+.contact-form { margin: 35px 0; max-width: 370px; padding: 20px 0 35px 20px; }
+.banner-form h2 { font-size:34px; }
+.button { font-size:24px; line-height:52px;}
+
+/********** VACATION PLACES **********/
+.vacation-places { padding-top:30px; }
+.title h2 { margin-bottom:30px; }
+.place-location { height:295px; }
+.place-title { font-size: 18px; min-height: 38px; padding: 5px 12px; }
+
+/********** HOLIDAY LOCATIONS **********/
+.holiday-locations { padding:30px 0 50px;}
+.location-detail { padding:10px 15px;}
+.location-detail h3 { margin-bottom:6px; }
+.location-detail p { font-size: 14px; letter-spacing: 0; line-height: 22px; margin-bottom:10px; min-height:110px; }
+.small-button a { font-size: 13px; height: 36px; line-height: 36px; margin: 15px 0 0; width: 130px; }
+
+/********** TESTIMONIAL **********/
+.testimonial { padding:30px 0;}
+.testimonial .title h2 { font-size: 38px; }
+
+}
+
+@media only screen and (max-width:991px) {
+/********** BODY **********/
+h1 { font-size: 86px; }
+h2 { font-size: 30px; }
+h3 { font-size: 18px; }
+
+/********** HEADER **********/
+.header-top .container { width:100%; }
+.phone-number { font-size:22px; }
+.offer { min-height: 72px; }
+.offer h2 { font-size: 26px; padding-top: 16px;}
+
+/********** BANNER **********/
+.banner-section .row { margin-left: 0px; margin-right: 0px; }
+.banner-section .col-sm-7 { padding-left: 0px; padding-right: 0px; }
+.banner-section .col-sm-5 { padding-left: 0px; padding-right: 0px; }
+.banner-content { max-width:75%;}
+.contact-form { margin: 35px 0; max-width: 406px; padding: 10px 10px 30px 15px; }
+.banner-form h2 { font-size: 30px; }
+.banner-form .form-title p { font-size:15px; }
+
+/********** VACATION PLACES **********/
+.place-location { height: 450px;}
+
+/********** HOLIDAY LOCATIONS **********/
+.gallery { width:100%;}
+.location-detail { width:100%; }
+.location-detail p { min-height:75px; }
+
+/********** TESTIMONIAL **********/
+.testimonial .title h2 { font-size: 30px; }
+
+}
+
+@media only screen and (max-width:767px) {
+     
+/********** BODY **********/
+h1 { font-size: 100px; }
+h2 { font-size: 28px; }
+h3 { font-size: 16px; }
+
+/********** HEADER **********/
+.header-main { min-height: inherit; }
+.logo { text-align:center; padding:10px 0 0; }
+.phone-number { text-align:center; padding:10px 0 16px; font-size:22px; }
+.offer { min-height:inherit;}
+.offer h2 { font-size: 21px; padding:11px 0 14px; line-height:32px;}
+
+/********** BANNER **********/
+.banner-content { margin: 60px 0 0; max-width: 100%; text-align: center; width:100%;}
+.banner-content p { margin:0 auto 20px; font-size:20px;}
+.form-section { border-left:none; max-width:360px; margin:35px auto 0;}
+.form-section::before { background:none; }
+.contact-form { margin: 0; max-width: 100%; padding: 10px 15px 22px;}
+
+/********** VACATION PLACES **********/
+.place-location { height: 390px; }
+.title h2 { margin-bottom: 20px; }
+.title h2::after { bottom:-25px; }
+
+/********** HOLIDAY LOCATIONS **********/
+.location-detail { padding: 15px 12px 20px; } 
+.location-detail { text-align:center; }
+.location-detail ul li { float:none; }
+.location-detail p { min-height: 80px; }
+
+/********** TESTIMONIAL **********/
+.client { width:160px; height:160px; }
+.testimonial-box p { font-size:15px; line-height:26px;}
+
+/********** FOOTER **********/
+footer { min-height: inherit; padding: 20px 0; }
+.footer p { font-size:12px; line-height:20px;}
+a.back-to-top i{ width:34px; height:34px; font-size:24px; }
+
+}
+
+@media only screen and (max-width:640px) {
+     
+/********** BODY **********/
+h1 { font-size: 80px; }
+h2 { font-size: 26px; }
+h3 { font-size: 16px; }
+
+/********** BANNER **********/
+.highlight-text { font-size: 18px; padding: 12px 23px 14px; }
+.banner-content p { font-size: 18px; margin: 0 auto 15px; }
+
+/********** VACATION PLACES **********/
+.place-location { height: 290px; }
+
+/********** HOLIDAY LOCATIONS **********/
+.holiday-locations-section .col-xs-6 { width:100%; }
+.location-detail p { min-height: inherit; }
+
+}
+
+@media only screen and (max-width:480px) {
+     
+/********** BODY **********/
+h1 { font-size: 72px; }
+h2 { font-size: 22px; }
+
+/********** HEADER **********/
+.header-main { background-position: center bottom;}
+.logo img { max-width:236px;}
+.phone-number { font-size: 20px; }
+.offer h2 { font-size: 18px; line-height: 28px; }
+
+/********** BANNER **********/
+.banner-content p { font-size: 16px; line-height:26px; width:90%;}
+.banner-form h2 { font-size: 24px; }
+.form-section { max-width:300px; }
+.banner-form .form-title p { font-size:14px; line-height:20px; padding-top:5px; }
+.button { font-size: 20px; line-height: 48px; }
+.highlight-text { font-size: 16px; padding: 10px 20px; }
+.contact-form { padding-left:5px; padding-right:5px; }
+
+/********** VACATION PLACES **********/
+.vacation-places { padding-top: 20px; }
+.title h2::after { bottom: -20px; }
+.vacation-places-section .col-xs-6 { width:100%; }
+.vacation-places { padding-top: 25px; }
+.place-location { height: auto; }
+.place-location.last { display:none;}
+.place-location { margin-top:20px; }
+
+/********** HOLIDAY LOCATIONS **********/
+.holiday-locations { padding: 30px 0 20px; }
+.location-info { margin-top:20px; }
+
+/********** TESTIMONIAL **********/
+.testimonial .title h2 { font-size: 26px; }
+.client-name { font-size:20px; padding:12px 0; }
+.testimonial-box p { font-size: 14px; line-height: 24px; }
+.owl-theme .owl-controls .owl-nav { margin: 15px 0 0; }
+
+}

@@ -1,0 +1,247 @@
+/*
+
+Template Name: Adventure Travel Tourism Landing Page Template
+Author: LeadForest
+Author URI: http://leadforest.com/
+Description: Adventure Travel Tourism Landing Page Template - Single Adventure Travel Tourism Landing Page Template HTML5 Template.
+Version: 1.0
+Tags: Single page, Bootstrap, responsive, html5, css3
+
+*/
+
+
+/* Table of Content
+==================================================
+#BASIC TYPOGRAPHY
+#HEADER	
+#BANNER
+#VACATION PLACES
+#HOLIDAY LOCATIONS
+#TESTIMONIAL
+#FOOTER
+*/
+
+/** GENERATED FONT **/
+@font-face { font-family: 'Conv_againts'; src: url('../fonts/againts.eot'); src: url('../fonts/againts.woff') format('woff'), url('../fonts/againts.ttf') format('truetype'), url('../fonts/againts.svg') format('svg'); font-weight: normal; font-style: normal; }
+html { width: 100%; height: 100%; overflow-x:hidden; }
+header, section, footer { width: 100%; float: left; }
+
+/********** BODY **********/
+
+body { margin: 0; padding: 0; font-family: 'Roboto', sans-serif; font-size: 16px; color: #454851; position: relative; font-weight: 300; width: 100%; overflow-x: hidden; background: #ecf0f1; line-height: 22px; }
+* { margin: 0; padding: 0; }
+
+/********** A TAG **********/
+
+a { outline: none; text-decoration: none; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; transition: all .4s ease-in-out; color: #288dff; }
+a:hover { outline: none; text-decoration: none; color: #000000; }
+a:focus { outline: none; text-decoration: none; }
+
+/********** BUTTON **********/
+
+.button { width: 100%; font-size: 26px; line-height: 60px; color: #000; font-weight: 700; border-radius: 0px; background: #fff339; border: none; }
+.button:hover { background: #288dff; color: #fff; }
+
+/********** INPUT **********/
+
+input[type=search] { -webkit-appearance: none; }
+input[type=text], input[type=password], input[type=search] { -webkit-appearance: none; -moz-appearance: none; outline: 0; }
+input:focus, select:focus, button:focus { outline: none; text-decoration: none; }
+select { width: 100%; }
+textarea { width: 100%; border: 1px solid #000; padding: 15px; }
+form div { width: 100%; float: left; }
+form div label { width: 100%; }
+fieldset { width: 100%; position: relative; }
+.error { border: 1px solid #ff0000 !important; color: #ff0000 !important; }
+label.error { display: none !important; }
+.success-msg { position: absolute; margin: 0; color: green; text-align: center; width: 100%; }
+
+/********** HEADING **********/
+
+h1, h2, h3, h4, h5, h6 { margin: 0 0 25px 0; color: #171d1c; line-height: normal; }
+h1 { font-size: 155px; }
+h2 { font-size: 48px; font-weight: 500; }
+h3 { font-size: 24px; }
+h4 { font-size: 22px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+
+/********** P TAG **********/
+
+p { float: none; margin: 0 0 20px 0; padding: 0; }
+p:last-child { margin-bottom: 0; }
+p strong { font-weight: bold; }
+
+/********** UL LI LISTING **********/
+
+ul { margin: 0 0 15px 0; padding: 0; display: table; list-style: none; position: relative; }
+ul li { margin: 0 0 20px 0; padding: 0 0 0 20px; line-height: normal; }
+ul li:last-child { margin-bottom: 0; }
+ul li i { color: #000; line-height: normal; }
+ul li a { color: #000; }
+ul li a:hover, ul li a:focus { color: #e16501; text-decoration: none; }
+ul li::before { color: #000000; content: ""; left: 0; padding-right: 12px; position: absolute; }
+ol { margin: 0 0 15px 15px; padding: 0; }
+
+/********** IMAGE ALIGN **********/
+
+img { max-width: 100%; }
+.alignleft { float: left; margin: 0 30px 30px 0; }
+.alignright { float: right; height: auto; margin: 0 0 30px 30px; }
+.aligncenter { display: block; margin: auto auto 20px auto; }
+.clear { clear: both }
+
+/********** PLACEHOLDER **********/
+
+*::-webkit-input-placeholder {
+color:#838383;
+opacity:1;
+font-weight:400;
+}
+*::-moz-placeholder {
+color:#838383;
+opacity:1;
+font-weight:400;
+}
+*:-ms-input-placeholder {
+color:#838383;
+opacity:1;
+font-weight:400;
+}
+*:-moz-placeholder {
+color:#838383;
+opacity:1;
+font-weight:400;
+}
+
+/************ SELECT BOX **************/
+
+.select-style { cursor: pointer; position: relative; }
+.selectcon { background-image: url(../images/arrow.png); position: absolute; right: 12px; top: 50%; margin-top: -4px; width: 14px; height: 9px }
+.select-style .highlight, .select-style { padding-left: 0 !important; padding-right: 0 !important; }
+.select-style .niceselect .value-wrapper { border: solid 1px #e9a605; background: #fff; }
+.select-style .niceselect .top p { font-size: 16px; font-weight: 300; color: #343434 }
+.select-style .niceselect .value-wrapper .values { color: #0D0C0C; font-size: 14px }
+.select-style .niceselect .value-wrapper .values.active, .select-style .niceselect .value-wrapper .values:hover { background: #000; color: #fff; }
+.select-style .niceselect .opt { font-size: 14px; font-weight: 400; border-bottom: 5px; cursor: default }
+.select-style .niceselect .opt span { padding: 10px; font-weight: 700; display: block }
+.select-style { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; /*user-select: none;*/ display: inline-block; min-width: 150px }
+.niceselect .value-wrapper { display: none; position: absolute; top: 49px; width: 100%; z-index: 10 }
+.niceselect .value-wrapper .opt .values { padding: 10px 10px 10px 20px }
+.niceselect .value-wrapper .values { padding: 5px 15px; cursor: pointer }
+.niceselect .value-wrapper .values label { cursor: pointer }
+.niceselect { position: relative; text-align: left; }
+.select-style label { font-weight: inherit; margin-bottom: 0; }
+.niceselect p { border: none; margin-top: 0; margin-bottom: 0; padding: 10px; color: #838383; }
+.niceselect input[type=radio] { visibility: hidden; position: absolute; left: -9999px }
+
+/********** SLIDER **********/
+
+.testimonials-section .owl-theme .owl-dots .owl-dot span { background: #fff; border: 2px solid #b7becb; height: 15px; width: 15px; }
+.testimonials-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #ff6304; border: 2px solid #ff6304; }
+.testimonials-section .owl-theme .owl-controls { margin: 0px 0 0; }
+.owl-theme .owl-dots .owl-dot span { margin: 5px; }
+
+/********** HEADER **********/
+
+header { float: left; width: 100%; padding: 0; margin: 0; }
+.header-main { position: relative; width: 100%; padding: 0; margin: 0; float: left; background: url(../images/hero-bg.jpg) no-repeat left top; background-size: cover; min-height: 838px; }
+.header-top { float: left; width: 100%; padding: 0; margin: 0; background: rgba(0, 0, 0, 0.55); min-height: 88px; }
+.logo { padding: 18px 0 0; }
+.phone-number { text-align: right; font-size: 26px; color: #fff; padding: 30px 0 0; }
+.phone-number a { color: #fff; font-weight: 500; }
+.phone-number a:hover, .phone-number a:focus { color: #fff339; }
+
+/********** BANNER **********/
+
+.banner-section { float: left; width: 100%; padding: 0; margin: 0; position: relative; }
+.form-section { width: 100%; background: rgba(0, 0, 0, 0.7); position: relative; border-left: 5px solid #288dff; }
+.form-section:before { position: absolute; left: -75px; top: 50%; background: url(../images/big-arrow.png) no-repeat left top; width: 70px; height: 92px; content: ""; margin-top: -46px; }
+.banner-inner { float: left; width: 100%; position: relative; }
+.banner-content { float: right; max-width: 70%; margin: 180px 110px 0 0; }
+.banner-text { text-align: center; }
+.banner-content h1 { font-family: 'Conv_againts'; color: #fff; margin-bottom: 0px; text-shadow: 3px 4px 5px rgba(0,0,0,.22); line-height: 178px; letter-spacing: 1.5px; }
+.banner-content p { font-size: 24px; color: #fff; letter-spacing: 0.3px; line-height: 32px; text-align: center; max-width: 540px; margin-bottom: 30px; }
+.contact-form { position: relative; max-width: 440px; padding: 35px 26px 45px 55px; margin: 50px 0 50px; }
+.banner-form { display: inline-block; width: 100%; }
+.banner-form h2 { margin-bottom: 0px; text-align: center; font-size: 36px; color: #fff; font-weight: 300; }
+.banner-form .form-title p { text-align: center; font-size: 16px; color: #fff; line-height: 24px; font-weight: 400; max-width: 300px; margin: 0 auto 20px; }
+.highlight-text { background: #288dff; padding: 18px 50px 20px; font-size: 24px; font-weight: 500; font-style: italic; color: #fff; display: inline-block; margin: 0 auto; }
+.contact-form ul { width: 100%; margin: 0; float: left; }
+.contact-form ul li { width: 100%; float: left; position: relative; padding: 0 7px; margin: 0; }
+.contact-form ul li i { position: absolute; right: 18px; top: 13px; font-size: 14px !important; color: #323233; cursor: pointer; }
+.contact-form ul li .banner-input { background-color: #fefeff; border: none; color: #838383; float: left; font-size: 13px; height: 40px; line-height: normal; margin-bottom: 17px; padding: 0 10px; width: 100%; border-radius: 0px; font-weight: 400; }
+.contact-form ul li textarea.banner-input { height: 100%; padding: 10px; }
+.contact-form ul li.w6 { width: 50%; }
+.select-style .niceselect .value-wrapper { border: 1px solid #cdcdcd; height: 200px; overflow-y: scroll; }
+.select-style .niceselect .value-wrapper .values.active, .select-style .niceselect .value-wrapper .values:hover { background: #288dff none repeat scroll 0 0; }
+.offer { float: left; width: 100%; padding: 0; margin: 0; background: #288dff; min-height: 100px; }
+.offer h2 { padding: 24px 0 0; margin: 0; width: 100%; text-align: center; font-size: 32px; color: #fff; line-height: normal; font-weight: 300; letter-spacing: 0.2px; }
+.offer h2 strong { font-weight: 500; color: #fff339; }
+
+/********** VACATION PLACES **********/
+
+.vacation-places { float: left; width: 100%; padding: 40px 0 0; margin: 0; }
+.title { display: block; text-align: center; width: 100%; }
+.title h2 { color: #171d1c; width: 100%; text-align: center; position: relative; margin-bottom: 45px; }
+.title h2:after { position: absolute; content: ""; left: 0; right: 0; bottom: -30px; width: 78px; height: 10px; background: url(../images/separator.png) no-repeat center center; margin: 0 auto; }
+.vacation-places-section { float: left; width: 100%; padding: 0; margin: 0; }
+.place-location { float: left; width: 100%; padding: 0; margin: 30px 0 0; height: 355px; overflow: hidden !important; border-bottom: 4px solid #fed000; background: #000; position: relative; }
+.place-location:before { position: absolute; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.25); content: ""; left: 0; right: 0; top: 0; bottom: 0; }
+.place-title { position: absolute; top: 15px; left: 0; background: rgba(40, 141, 255, 0.40); padding: 5px 20px; line-height: normal; color: #fff; font-size: 22px; font-weight: 300; line-height: normal; min-height: 42px; }
+.place-price { position: absolute; left: 22px; bottom: 0; }
+.place-price ul { padding: 0; margin: 0; }
+.place-price ul li { padding: 0; margin: 0; font-size: 18px; font-weight: 900; color: #000; height: 38px; line-height: 38px; width: 82px; text-align: center; display: inline-block; float: left; background-image: -webkit-linear-gradient(bottom, #ffcf00, #feea03); background-image: -moz-linear-gradient(bottom, #ffcf00, #feea03); background-image: -o-linear-gradient(bottom, #ffcf00, #feea03); background-image: -ms-linear-gradient(bottom, #ffcf00, #feea03); background-image: linear-gradient(to top, #ffcf00, #feea03); }
+.place-price ul li a i { font-size: 20px; color: #171d1c; width: 100%; height: 100%; }
+.place-price ul li a:hover i { color: #113969; }
+.place-price ul li:last-child { width: 42px; background-image: -webkit-linear-gradient(bottom, #ccc4cb, #cccfe4); background-image: -moz-linear-gradient(bottom, #ccc4cb, #cccfe4); background-image: -o-linear-gradient(bottom, #ccc4cb, #cccfe4); background-image: -ms-linear-gradient(bottom, #ccc4cb, #cccfe4); background-image: linear-gradient(to top, #ccc4cb, #cccfe4); }
+.place-location.last { height: auto; }
+
+/********** HOLIDAY LOCATIONS **********/
+
+.holiday-locations { float: left; width: 100%; padding: 40px 0 60px; margin: 0; }
+.location-info { float: left; width: 100%; padding: 0; margin: 30px 0 0; background: #fff; /*height:300px;*/ overflow: hidden; }
+.gallery { float: left; width: 50%; padding: 0; margin: 0; }
+.gallery ul li { padding: 0; margin: 0; }
+.location-detail { float: left; width: 50%; padding: 30px 20px 10px; margin: 0; }
+ul.lSGallery { margin: 0 !important; }
+.lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover { border-radius: 0px; opacity: 0.5; }
+.location-detail h3 { line-height: normal; margin-bottom: 8px; }
+.location-detail p { font-size: 15px; letter-spacing: 0.2px; line-height: 24px; }
+.location-detail ul { float: left; width: 100%; padding: 0; margin: 0; }
+.location-detail ul li { float: left; display: inline-block; padding: 0 20px 0 0; margin: 0; vertical-align: middle; }
+.location-detail ul li i { padding-left: 10px; font-style: normal; font-size: 15px; line-height: 24px; }
+.small-button a { display: inline-block; width: 130px; line-height: 40px; height: 40px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; background-color: #288dff; font-size: 14px; color: #fff; font-weight: 400; text-align: center; margin: 25px 0 0; text-transform: uppercase; }
+.small-button a:hover { background: #fcce00; color: #000; }
+
+/********** TESTIMONIAL **********/
+
+.testimonial { float: left; width: 100%; padding: 40px 0 40px; margin: 0; background: #f6f8f8; }
+.testimonial .title h2 { font-size: 20px; font-size: 44px; }
+.testimonial .title h2::after { display: none; }
+.testimonial-box { max-width: 900px; margin: 0 auto; text-align: center; padding: 0; text-align: center; }
+.client { text-align: center; width: 194px; height: 194px; overflow: hidden; border-radius: 100%; border: 5px solid #fff339; margin: 0 auto; }
+.client img { border-radius: 100%; }
+.quote { text-align: center; width: 100%; margin-top: -28px; margin-left: 2px; }
+.quote img { width: auto !important; margin: 0 auto; }
+.client-name { font-size: 22px; font-weight: 400; color: #000000; letter-spacing: 1px; padding: 20px 0; }
+.testimonial-box p { font-style: italic; font-size: 16px; font-weight: 400; line-height: 28px; color: #4b4b4b; }
+.owl-theme .owl-controls .owl-nav { margin: 30px 0 5px; }
+.owl-theme .owl-controls .owl-nav .owl-prev { font-size: 0px; width: 40px; height: 20px; position: relative; color: #fff; background: none; }
+.owl-theme .owl-controls .owl-nav .owl-next { font-size: 0px; width: 40px; height: 20px; position: relative; color: #fff; background: none; }
+.owl-theme .owl-controls .owl-nav .owl-prev::before { color: #787878; content: "\f177"; font-family: 'FontAwesome'; font-size: 28px; left: 0; padding-right: 0; position: absolute; right: 0; top: 0px; }
+.owl-theme .owl-controls .owl-nav .owl-next::before { color: #787878; content: "\f178"; font-family: 'FontAwesome'; font-size: 28px; left: 0; padding-right: 0; position: absolute; right: 0; top: 0px; }
+.owl-theme .owl-controls .owl-nav .owl-prev:hover::before { color: #288dff; }
+.owl-theme .owl-controls .owl-nav .owl-next:hover::before { color: #288dff; }
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item { -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); }
+
+/********** FOOTER **********/
+
+footer { background-color: #262626; padding: 25px 0 13px; min-height: 69px; }
+.footer { width: 100%; position: relative; display: block; }
+.footer p { margin: 0; color: #ffffff; letter-spacing: 0.52px; font-size: 14px; font-weight: 400; line-height: 22px; text-align: center; }
+.footer p a { color: #fff339; text-decoration: none; }
+.footer p a:hover { color: #a62534; text-decoration: underline; }
+a.back-to-top { display: none; position: fixed; z-index: 999; right: 20px; bottom: 75px; text-align: center; }
+a.back-to-top i { font-size: 30px; font-weight: 700; line-height: 1.2; font-family: FontAwesome; color: #fff; width: 40px; height: 40px; background-color: #141414; }
+a:hover.back-to-top i { background-color: #288dff; color: #ebebeb; }
